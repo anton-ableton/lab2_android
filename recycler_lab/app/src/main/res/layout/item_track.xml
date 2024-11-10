@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_background"
+    android:padding="8dp"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewAlbum"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/image"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="8dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Королева"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Алла Ости"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewPlayButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/play_button"
+        android:layout_gravity="center"/>
+</LinearLayout>
