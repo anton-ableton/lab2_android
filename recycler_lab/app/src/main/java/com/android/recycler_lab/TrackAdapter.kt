@@ -3,7 +3,6 @@ package com.android.recycler_lab
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
@@ -27,7 +26,5 @@ class TrackAdapter(private val tracks: List<Track>) : RecyclerView.Adapter<Track
     inner class TrackViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val titleTextView: TextView = itemView.findViewById(R.id.textViewTitle)
         val artistTextView: TextView = itemView.findViewById(R.id.textViewArtist)
-        val albumImageView: ImageView = itemView.findViewById(R.id.imageViewAlbum)
-        val playButtonImageView: ImageView = itemView.findViewById(R.id.imageViewPlayButton)
     }
 }

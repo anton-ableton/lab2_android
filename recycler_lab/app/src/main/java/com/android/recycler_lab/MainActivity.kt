@@ -15,21 +15,20 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         val trackList = listOf(
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
-            Track("Королева", "Алла Ости"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
+            Track("No Hay Ley", "Kali Uchis"),
         )
 
         val adapter = TrackAdapter(trackList)
