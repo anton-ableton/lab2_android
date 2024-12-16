@@ -1,20 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:layout_height="72dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
     android:background="@drawable/rounded_background"
-    android:padding="8dp"
-    android:layout_margin="8dp">
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
 
     <ImageView
         android:id="@+id/imageViewAlbum"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:src="@drawable/image"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/circle_image_background"
+        android:clipToOutline="true"
         android:scaleType="centerCrop"
-        android:layout_marginEnd="8dp"/>
+        android:src="@drawable/cover" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -26,24 +32,26 @@
             android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Королева"
+            android:gravity="center_vertical"
+            android:text="No Hay Ley"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textViewArtist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Алла Ости"
+            android:gravity="center_vertical"
+            android:text="Kali Uchis"
             android:textColor="#AAAAAA"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
     </LinearLayout>
 
     <ImageView
         android:id="@+id/imageViewPlayButton"
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:src="@drawable/play_button"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/play" />
 </LinearLayout>
